@@ -1,0 +1,10 @@
+package kr.hs.study;
+
+public class HelloWorldEn {
+	static void sayHello(){
+		System.out.println("hello");
+	}
+	public static void main(String[] args) {
+		sayHello();
+	}
+}
