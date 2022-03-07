@@ -14,4 +14,9 @@
 	                    
 <bean id="test1" class="kr.hs.study.beans.TestBean"/>
 <!-- id가 객체 이름, 클래스는 경로 -->
+
+<!-- TestBean 객체 생성해줘 -->
+<bean id="t1" class="kr.hs.study.beans.TestBean"/>
+<!-- TestBean t1 = new TestBean() -->
+
 </beans>
