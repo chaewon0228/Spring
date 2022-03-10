@@ -1,7 +1,0 @@
-package kr.hs.study.beans;
-
-public class HelloworldKr {
-	public static void sayHello(){
-		System.out.println("¾È³ç");
-	}
-}

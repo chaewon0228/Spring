@@ -3,4 +3,9 @@
     <fullyQualifiedTypeName name="kr.hs.study.beans.HelloWorldEn"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.HelloworldKr"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.Hello"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean2"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean1"/>
 </qualifiedTypeNameHistroy>
