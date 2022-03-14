@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_Spring_core\ConstructorDI\src\main\java\kr\hs\study\beans\TestBean2.java"/>
 			<item value="C:\_Spring_core\SpringBasic"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -50,6 +51,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SetterDI"/>
+			<item value="ConstructorDI"/>
 			<item value="LifeCycle2"/>
 			<item value="SpringLifeCycle"/>
 		</list>
