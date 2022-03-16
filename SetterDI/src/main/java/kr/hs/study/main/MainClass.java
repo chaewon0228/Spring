@@ -23,6 +23,8 @@ public class MainClass {
 		System.out.println(obj2.getData1());
 		System.out.println(obj2.getData2());
 		
+		
+		
 		ctx.close();
 	}
 

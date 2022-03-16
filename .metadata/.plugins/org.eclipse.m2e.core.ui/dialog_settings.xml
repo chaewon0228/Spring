@@ -51,6 +51,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AutowireDI"/>
 			<item value="SetterDI"/>
 			<item value="ConstructorDI"/>
 			<item value="LifeCycle2"/>
