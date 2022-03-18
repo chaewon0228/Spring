@@ -4,7 +4,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import kr.hs.study.beans.TestBean;
 import kr.hs.study.beans.TestBean2;
-
 public class MainClass {
 
 	public static void main(String[] args) {
@@ -22,8 +21,6 @@ public class MainClass {
 		TestBean2 obj2 = ctx.getBean("t2", TestBean2.class);
 		System.out.println(obj2.getData1());
 		System.out.println(obj2.getData2());
-		
-		
 		
 		ctx.close();
 	}
