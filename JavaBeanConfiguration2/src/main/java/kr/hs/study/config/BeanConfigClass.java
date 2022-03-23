@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 
 import kr.hs.study.beans.TestBean1;
+import kr.hs.study.beans.TestBean3;
 
 @Configuration
 // 이 파일은 bean을 만들라고 명령하는 설정 파일이다.
@@ -30,5 +31,16 @@ public class BeanConfigClass {
 	@Scope("prototype")
 	public TestBean1 java3() {
 		return new TestBean1();
+	}
+	
+	@Bean(name="test")
+	@Lazy
+	@Scope("prototype")
+	public TestBean3 t1() {
+		return new TestBean3();
+	}
+	@Bean
+	public TestBean3 t2() {
+		return new TestBean3();
 	}
 }
