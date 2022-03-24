@@ -2,14 +2,26 @@ package kr.hs.study.beans;
 
 public class Designer implements Employee {
 
+	private String job;
+	private int in;
+	private int out;
+	
 	@Override
 	public void Checkin() {
-		System.out.println("디자이너 7시 출근");
+		System.out.println(job + " " + in + "시 출근");
 	}
 
 	@Override
 	public void Checkout() {
-		System.out.println("디자이너 10시 퇴근");
+		System.out.println(job + " " + out + "시 퇴근");
 	}
-
+	
+	public Designer(String job, int in, int out) {
+		this.job = job; 
+		this.in = in; 
+		this.out = out; 
+	}
+	public Designer() {
+		
+	}
 }
