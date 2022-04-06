@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean1"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.Book"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
     <fullyQualifiedTypeName name="kr.hs.study.config.BeanConfigClass"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
@@ -24,11 +23,22 @@
     <fullyQualifiedTypeName name="kr.hs.study.beans.novel"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.poet"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.magazine"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean2"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean2"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.dataBean2"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.dataBean1"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.testBean1"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.testBean2"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.testBean3"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.dataBean3"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.dataBean4"/>
+    <fullyQualifiedTypeName name="lombok.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
 </qualifiedTypeNameHistroy>
