@@ -55,6 +55,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ComponentAutowired"/>
+			<item value="Component"/>
+			<item value="Person"/>
+			<item value="AutowireConstructor"/>
 			<item value="JSR250"/>
 			<item value="AnnotationBean"/>
 			<item value="Annotation"/>
@@ -66,10 +70,6 @@
 			<item value="employee"/>
 			<item value="JavaBeanConfigrationg"/>
 			<item value="AutowireDI"/>
-			<item value="SetterDI"/>
-			<item value="ConstructorDI"/>
-			<item value="LifeCycle2"/>
-			<item value="SpringLifeCycle"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
