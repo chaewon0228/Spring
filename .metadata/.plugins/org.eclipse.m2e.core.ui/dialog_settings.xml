@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_Spring_core\employeeComponent\src\main\java\kr\hs\study\beans\Publisher.java"/>
 			<item value="C:\_Spring_core\AnnotationBean\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_Spring_core\JavaLibrary\src\main\java\kr\hs\study\config\BeanConfigClass.java"/>
 			<item value="C:\_Spring_core\JavaEmployee"/>
@@ -55,6 +56,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="libraryComponent"/>
+			<item value="AOP"/>
+			<item value="employeeComponent"/>
 			<item value="ComponentAutowired"/>
 			<item value="Component"/>
 			<item value="Person"/>
@@ -67,9 +71,6 @@
 			<item value="JavaDI"/>
 			<item value="JavaBeanConfiguration2"/>
 			<item value="library"/>
-			<item value="employee"/>
-			<item value="JavaBeanConfigrationg"/>
-			<item value="AutowireDI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

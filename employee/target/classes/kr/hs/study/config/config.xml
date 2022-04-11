@@ -11,8 +11,20 @@
 	                    http://www.springframework.org/schema/aop
 	                    http://www.springframework.org/schema/aop/spring-aop.xsd">
 	                    
-<bean id="d1" class="kr.hs.study.beans.Designer"/>
-<bean id="d2" class="kr.hs.study.beans.Developer"/>
-<bean id="d3" class="kr.hs.study.beans.Publisher"/>
+<bean id="d1" class="kr.hs.study.beans.Designer">
+	<constructor-arg value="디자이너" type="java.lang.String"/>
+	<constructor-arg value="10" type="int"></constructor-arg>
+	<constructor-arg value="16" type="int"></constructor-arg>
+</bean>
+<bean id="d2" class="kr.hs.study.beans.Developer">
+	<constructor-arg value="개발자" type="java.lang.String"/>
+	<constructor-arg value="9" type="int"></constructor-arg>
+	<constructor-arg value="18" type="int"></constructor-arg>
+</bean>
+<bean id="d3" class="kr.hs.study.beans.Publisher">
+	<constructor-arg value="퍼블리셔" type="java.lang.String"/>
+	<constructor-arg value="9" type="int"></constructor-arg>
+	<constructor-arg value="16" type="int"></constructor-arg>
+</bean>
 
 </beans>

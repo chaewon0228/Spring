@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 public class Test {
 	private Person p1;
 	private Person p2;
+	private Person p3;
 	
 	public Test(Person p1, Person p2) {
 		this.p1 = p1;

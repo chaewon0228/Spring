@@ -13,14 +13,7 @@
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean4"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean5"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean5"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.Employee"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.Designer"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.Developer"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.Flow.Publisher"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.Publisher"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.novel"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.poet"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.magazine"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.DataBean2"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.dataBean2"/>
@@ -31,12 +24,10 @@
     <fullyQualifiedTypeName name="kr.hs.study.beans.dataBean3"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.dataBean4"/>
     <fullyQualifiedTypeName name="lombok.Value"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean3"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
     <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean2"/>
-    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
@@ -46,4 +37,13 @@
     <fullyQualifiedTypeName name="kr.hs.study.beans.Person"/>
     <fullyQualifiedTypeName name="kr.hs.study.config.BeanConfigClass"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.Employee"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.Designer"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.Developer"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Flow.Publisher"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.novel"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.poet"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.magazine"/>
+    <fullyQualifiedTypeName name="kr.hs.study.beans.TestBean1"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 </qualifiedTypeNameHistroy>
