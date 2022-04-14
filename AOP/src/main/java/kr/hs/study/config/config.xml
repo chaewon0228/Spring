@@ -11,8 +11,22 @@
 	                    http://www.springframework.org/schema/aop
 	                    http://www.springframework.org/schema/aop/spring-aop.xsd">
 	                    
-<!-- TestBean 객체 생성해줘 -->
-<bean id="h1" class="kr.hs.study.beans.HelloWorldEn"/>
-<!-- TestBean h1 = new TestBean() -->
+	<bean id="advisor" class="kr.hs.study.advisor.AdvisorClass" />
+	<bean id="t1" class="kr.hs.study.beans.TestBean1" />
+
+	<aop:config>
+		<aop:aspect ref="advisor">
+			<aop:pointcut id="point"
+				expression="execution(* method1())" />
+			<!-- *:리턴타입 상관없고, 모든패키지, 모든클래스에 있는 method1() -->
+
+			<!-- <aop:before method="beforeMethod" pointcut-ref="point" /> -->
+			<!-- method1이 실행되기전에 beforeMethod가 먼저 실행된다. -->
+
+
+			<aop:after method="afterMethod" pointcut-ref="point" />
+			<!-- method1이 실행후에 afterMethod가 먼저 실행된다. -->
+		</aop:aspect>
+	</aop:config>
 
 </beans>
