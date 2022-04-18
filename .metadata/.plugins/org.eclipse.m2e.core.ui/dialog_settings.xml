@@ -56,6 +56,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Execution"/>
 			<item value="AOP"/>
 			<item value="PersonComponent"/>
 			<item value="libraryComponent"/>
@@ -70,7 +71,6 @@
 			<item value="JavaLibrary"/>
 			<item value="JavaEmployee"/>
 			<item value="JavaDI"/>
-			<item value="JavaBeanConfiguration2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
