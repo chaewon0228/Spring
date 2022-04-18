@@ -15,17 +15,24 @@
 	<bean id="t1" class="kr.hs.study.beans.TestBean1" />
 
 	<aop:config>
+		<!-- 모듈을 만든다. -->
 		<aop:aspect ref="advisor">
-			<aop:pointcut id="point"
-				expression="execution(* method1())" />
+			<aop:pointcut id="point" expression="execution(* method1())" />
 			<!-- *:리턴타입 상관없고, 모든패키지, 모든클래스에 있는 method1() -->
 
 			<!-- <aop:before method="beforeMethod" pointcut-ref="point" /> -->
 			<!-- method1이 실행되기전에 beforeMethod가 먼저 실행된다. -->
-
-
-			<aop:after method="afterMethod" pointcut-ref="point" />
+			<!-- <aop:after method="afterMethod" pointcut-ref="point" /> -->
 			<!-- method1이 실행후에 afterMethod가 먼저 실행된다. -->
+			
+			<!-- 관심받는 메서드 앞과 뒤에 삽입 -->
+			<!-- <aop:around method="aroundMethod" pointcut-ref="point"/> -->
+		
+			<!-- 에러 없이 종료된 후 삽입  -->
+			<!-- <aop:after-returning method="afterReturningMethod" pointcut-ref="point"/> -->
+			
+			<!-- 예외 발생 후 삽입 -->
+			<aop:after-throwing method="afterThrowingMethod" pointcut-ref="point" throwing="e"/>
 		</aop:aspect>
 	</aop:config>
 

@@ -56,9 +56,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AOP"/>
 			<item value="PersonComponent"/>
 			<item value="libraryComponent"/>
-			<item value="AOP"/>
 			<item value="employeeComponent"/>
 			<item value="ComponentAutowired"/>
 			<item value="Component"/>
