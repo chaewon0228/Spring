@@ -12,13 +12,15 @@ public class MainClass {
 		obj1.method1();
 		obj1.method2();
 		
-		System.out.println("------------------------");
+		System.out.println("------------------------------");
 		obj1.method1(100);
 		obj1.method1("spring");
 		
-		System.out.println("------------------------");
+		System.out.println("------------------------------");
 		obj1.method1(200, 300);
 		
+		System.out.println("------------------------------");
+		obj1.method1(200, "spring300");
 		
 		ctx.close();
 	}

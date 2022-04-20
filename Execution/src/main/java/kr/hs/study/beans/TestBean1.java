@@ -17,6 +17,9 @@ public class TestBean1 {
 		System.out.println("String 매개변수 method1 : " + s1);
 	}
 	
+	public void method1(int a1, String s1) {
+		System.out.println("int, String 매개변수 method1 : " + a1 + ", " + s1);
+	}
 	
 	public void method2() {
 		System.out.println("kr.hs.study.beans.TestBean2의 method2");
