@@ -15,8 +15,6 @@ public class TestDAO {
 	@Autowired
 	private JdbcTemplate db;
 
-
-
 	//1. insert
 	public void insert_data(TestBean bean) {
 		//container에 있는 TestBean의 객체가 bean에 자동주입 된다.
@@ -24,20 +22,16 @@ public class TestDAO {
 		db.update(sql, bean.getData1(), bean.getData2());
 	}
 
+	//2. update
+	public void update_data(TestBean bean) {
+		String sql = "update test set data2 = ? where data1 = ?";
+		db.update(sql, bean.getData2(), bean.getData1());
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	//3. delete
+	public void delete_data(int data1) {
+		String sql = "delete from test where data1 = ?";
+		db.update(sql, data1);
+	}
 
 }
