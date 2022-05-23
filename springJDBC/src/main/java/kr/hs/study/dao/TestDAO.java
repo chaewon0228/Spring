@@ -1,5 +1,8 @@
 package kr.hs.study.dao;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
@@ -15,6 +18,11 @@ public class TestDAO {
 	@Autowired
 	private JdbcTemplate db;
 
+	//container에 있는 MapperClass bean을 찾아서 mapper에 자동주입
+	@Autowired
+	MapperClass mapper;
+	
+	
 	//1. insert
 	public void insert_data(TestBean bean) {
 		//container에 있는 TestBean의 객체가 bean에 자동주입 된다.
@@ -33,5 +41,11 @@ public class TestDAO {
 		String sql = "delete from test where data1 = ?";
 		db.update(sql, data1);
 	}
-
+	
+	//4. select
+	public List<TestBean> select_data() {
+		String sql = "select * from test";
+		List<TestBean> list = db.query(sql, mapper);
+		return list;
+	}
 }

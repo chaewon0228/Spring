@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 // 디비 테이블에 들어갈 값을 저장
 // 디비 테이블에서 가져오는 값을 저장하는 곳
 @Component
-@Scope("prototype")
+//@Scope("prototype")
 public class TestBean {
 	private int data1;
 	private String data2;
